@@ -1,0 +1,58 @@
+.mainContainer{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+}
+.parentDiv{
+    max-width: 950px;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.heading{
+    font-size: 25px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 30px;
+}
+.filterationDiv{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        background-color: #D6E4E5;
+        padding: 15px;
+        margin-top: 10px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    
+}
+.rowing{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    
+}
+.colLeft{
+        
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                flex-direction: column;
+        
+}
+.widthForSearch{
+        width: 300px;
+}
+.widthForSelect{
+        width: 200px;
+}
